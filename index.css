@@ -1,0 +1,48 @@
+body{
+    display: grid;
+    grid-template-rows: 20% auto 20%;
+    grid-template-columns: auto;
+    
+}
+
+body .pageHeader{
+    font-size: 20;
+    text-align: center;
+    
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+body .pageBody{
+    font-size: 20;
+    border: 2px;
+    border-color: blue;
+    border-style: solid;
+    
+    display: grid;
+    grid-template-columns: 5% auto 5%;
+    grid-template-rows: 5% auto 5%;
+}
+
+.pageBody .andrewsSection{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    
+    border: 2px;
+    border-color: green;
+    border-style: solid;
+    
+       
+    font-size: 25;
+    
+}
+
+body .pageFooter{
+    font-size: 20;
+    text-align: center;
+    
+    border: 2px;
+    border-color: red;
+    border-style: solid;
+}
