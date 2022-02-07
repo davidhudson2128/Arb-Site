@@ -1,0 +1,6 @@
+server command for json: 
+powershell -ExecutionPolicy ByPass -File C:\Users\acrot\AppData\Roaming\npm\http-server.ps1
+
+localHost for website : listed or http://10.0.0.146:8080 (paste to chrome)
+
+serverName : http-server.ps1

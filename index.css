@@ -22,6 +22,10 @@ body .pageBody{
 /*    border-style: solid;*/
     background: #d3d3d3;
     
+    border: 2px;
+    border-color: blue;
+    border-style: solid;
+    background-color: lightgray;
     display: grid;
     grid-template-columns: 2% auto 2%;
     grid-template-rows: 2% auto 2%;
@@ -33,15 +37,31 @@ body .pageBody{
     
 /*
     border: 2px;
-    border-color: green;
+    border-color: lightgray;
     border-style: solid;
 */
     
-       
     font-size: 25;
     background: #ffffff;
     border-radius: 15px;
     
+}
+
+#box{
+    height: 125px;
+    font-size: 20;
+    /* height: 100px; */
+    margin: 10px 10px 10px 10px;
+    color: gray;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+#breaker{
+    border-top: 1px solid gray;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 1000px;
 }
 
 body .pageFooter{
