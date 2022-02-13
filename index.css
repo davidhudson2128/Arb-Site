@@ -1,45 +1,33 @@
 body{
     display: grid;
-    grid-template-rows: 20% auto 20%;
+    grid-template-rows: 17vh auto 13vh;
     grid-template-columns: 100%;
     
     
 }
 
-body .pageHeader{
+.pageHeader{
     font-size: 20;
     text-align: center;
     
-/*    border: 2px;*/
-/*    border-color: black;*/
-/*    border-style: solid;*/
 }
 
-body .pageBody{
+.pageBody{
     font-size: 20;
-/*    border: 2px;*/
-/*    border-color: blue;*/
-/*    border-style: solid;*/
     background: #d3d3d3;
     
-    border: 2px;
-    border-color: blue;
-    border-style: solid;
-    background-color: lightgray;
+
+    background-color: #d3d3d3;
     display: grid;
-    grid-template-columns: 2% auto 2%;
-    grid-template-rows: 2% auto 2%;
+    grid-template-columns: .7vw auto .7vw;
+    grid-template-rows: 2vh auto 2vh;
 }
 
 .pageBody .andrewsSection{
     grid-row: 2/3;
     grid-column: 2/3;
     
-/*
-    border: 2px;
-    border-color: lightgray;
-    border-style: solid;
-*/
+    overflow-x:auto;
     
     font-size: 25;
     background: #ffffff;
@@ -50,10 +38,11 @@ body .pageBody{
 #box{
     height: 125px;
     font-size: 20;
-    /* height: 100px; */
-    margin: 10px 10px 10px 10px;
+    height: 13vh; 
+    width: auto;
+    margin: 10px 20px 10px 20px;
     color: gray;
-    background-color: lightgray;
+    background-color: #e8e8e8;
     border-radius: 10px;
 }
 
@@ -128,3 +117,84 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+
+
+
+
+
+/*
+
+    Media Queries for different screen sizes
+
+*/
+
+
+/* Smartphones (portrait and landscape) */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 525px) {
+    
+    
+    body{
+        grid-template-rows: 13vh auto 13vh;
+    }
+    
+    
+}
+
+/* Smartphones (landscape) */
+@media only screen
+and (min-width : 321px) {
+    
+    
+}
+
+/* Smartphones (portrait)  */
+@media only screen
+and (max-width : 320px) {
+    
+    
+}
+
+/* Tablets (portrait and landscape) */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+    
+    
+}
+
+/* Tablets (landscape) */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+    
+    
+}
+
+/* Tablets (portrait) */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+    
+    
+}
+
+/* Desktops and laptops */
+@media only screen
+and (min-width : 1224px) {
+    
+    
+}
+
+/* Large screens -Andrews monitor- */
+@media only screen
+and (min-width : 1824px) {
+    
+    
+}
+
