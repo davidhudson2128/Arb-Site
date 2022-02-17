@@ -8,7 +8,7 @@ body{
 }
 
 .pageHeader{
-    font-size: 20;
+    font-size: 1.33em;
     text-align: center;
     
     display: grid;
@@ -30,7 +30,7 @@ body{
 }
 
 .logoContainer #logoImage{
-    width: 220px;
+    width: 250px;
     padding-left: min(3.5vw, 20px);
      
     
@@ -48,7 +48,7 @@ body{
     grid-column: buttonsStart/buttonsEnd;
     
     display: grid;
-    grid-template-columns: [calculatorStart]50% [calculatorEnd] 50% [infoEnd];
+    grid-template-columns: [calculatorStart] 50% [calculatorEnd] 50% [infoEnd];
 }
 
 
@@ -219,6 +219,21 @@ and (max-device-width : 525px) {
         grid-template-rows: 13vh auto 13vh;
     }
     
+        
+    .pageHeader {
+        font-size: 2.1em;
+        
+        grid-template-columns: [logoStart] 30vw [logoEnd] auto [gap] auto [gap2] auto [gap3] auto [gap4] auto [gap5] auto  [gap7]  auto[buttonsStart] min(36vw, 800px) [buttonsEnd] auto [gap6] auto;  
+    
+    }
+    
+    .logoContainer #logoImage{
+        width: 420px;
+        padding-left: min(3.5vw, 45px);
+    
+    }
+
+    
     
 }
 
@@ -240,6 +255,7 @@ and (max-width : 320px) {
 @media only screen
 and (min-device-width : 768px)
 and (max-device-width : 1024px) {
+    
     
     
 }
