@@ -5,7 +5,6 @@ body{
     
     border: 8px groove #e4e3e3;
     
-    
 }
 
 .pageHeader{
@@ -35,6 +34,10 @@ body{
     background: #ffffff;
     border-radius: 15px;
     
+}
+
+#logoImage{
+    width: 300px;
 }
 
 #box{
