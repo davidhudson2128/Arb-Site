@@ -7,7 +7,7 @@ function addElement ()
     data = [{"game_id": "Ultimate Gamer Moment", "sports_title": "NCAAB", "commence_time": "2022-01-29T19:05:40Z",
          "home_team": "Arkansas Razorbacks", "away_team": "West Virginia Mountaineers", "market": "h2h", "edge": 13.22,
           "home_team_lines": [{"team": "Arkansas Razorbacks", "last_update": "2022-01-29T21:06:53Z", "price": -500, "bookie": "MyBookie.ag"}],
-           "away_team_lines": [{"team": "West Virginia Mountaineers", "last_update": "2022-01-29T21:06:55Z", "price": 2800, "bookie": "William Hill (US)"}]}, {"game_id": "bruh moment"}, {"game_id": "it is wednesday my doods"}, {"game_id": "Anne Frank----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"}]
+           "away_team_lines": [{"team": "West Virginia Mountaineers", "last_update": "2022-01-29T21:06:55Z", "price": 2800, "bookie": "William Hill (US)"}]}, {"game_id": "bruh moment"}, {"game_id": "it is wednesday my doods"}, {"game_id": "-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"}]
     // serverRequest('arbs.json')
     appendData(data)
 }
