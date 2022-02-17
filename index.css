@@ -11,7 +11,83 @@ body{
     font-size: 20;
     text-align: center;
     
+    display: grid;
+    grid-template-rows: 10% auto 10%;
+    grid-template-columns: [logoStart] 30vw [logoEnd] auto [gap] auto [gap2] auto [gap3] auto [gap4] auto [gap5] auto [buttonsStart] min(35vw, 300px) [buttonsEnd] auto;  
+    
+    
 }
+
+.pageHeader .logoContainer {
+    
+    
+    grid-row: 2/3;
+    grid-column: logoStart/logoEnd;
+    
+    justify-self: left;
+    position: relative;
+    
+}
+
+.logoContainer #logoImage{
+    width: 220px;
+    padding-left: min(3.5vw, 20px);
+     
+    
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+}
+
+.pageHeader .buttons {
+    grid-row: 2/3;
+    grid-column: buttonsStart/buttonsEnd;
+    
+    display: grid;
+    grid-template-columns: [calculatorStart]50% [calculatorEnd] 50% [infoEnd];
+}
+
+
+
+.buttons .calculatorContainer {
+    
+    grid-column: calculatorStart/calculatorEnd;
+    
+    display: table;
+
+    
+}
+
+.calculatorContainer .calculator {
+    
+    
+    display: table-cell;
+    vertical-align: middle;
+    
+}
+
+.buttons .infoContainer {
+    
+    grid-column: calculatorEnd/infoEnd;
+    
+    
+    display: table;
+
+    
+}
+
+.infoContainer .info {
+    
+    
+    display: table-cell;
+    vertical-align: middle;
+    
+}
+
 
 .pageBody{
     font-size: 20;
@@ -36,9 +112,7 @@ body{
     
 }
 
-#logoImage{
-    width: 300px;
-}
+
 
 #box{
     height: 125px;
@@ -199,6 +273,18 @@ and (min-width : 1224px) {
 @media only screen
 and (min-width : 1824px) {
     
+    .pageHeader {
+        font-size: 3.9em;
+        
+        grid-template-columns: [logoStart] 30vw [logoEnd] auto [gap] auto [gap2] auto [gap3] auto [gap4] auto [gap5] auto [buttonsStart] min(35vw, 800px) [buttonsEnd] auto;  
+    
+    }
+    
+    .logoContainer #logoImage{
+    width: 420px;
+    padding-left: min(3.5vw, 45px);
+    
+}
     
 }
 
