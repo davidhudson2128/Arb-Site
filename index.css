@@ -3,7 +3,6 @@ body{
     grid-template-rows: 17vh auto 13vh;
     grid-template-columns: 100%;
     
-    border: 8px groove #e4e3e3;
     
 }
 
@@ -15,6 +14,9 @@ body{
     grid-template-rows: 10% auto 10%;
     grid-template-columns: [logoStart] 30vw [logoEnd] auto [gap] auto [gap2] auto [gap3] auto [gap4] auto [gap5] auto [buttonsStart] min(35vw, 300px) [buttonsEnd] auto;  
     
+/*    background-image: url('images/header-gradient.png')*/
+    
+    background: linear-gradient(to bottom, #abbed7, #d2d2d3) ;
     
 }
 
@@ -141,6 +143,9 @@ body .pageFooter{
     border-color: red;
     border-style: solid;
 */
+    
+    background: linear-gradient(to bottom, #d2d2d3, #abbed7) ;
+    
 }
 
 
