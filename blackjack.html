@@ -16,10 +16,15 @@ var data = [{
   type:"scatter"
 }];
 
+var layout = {
+        title: 'Plotting CSV data from AJAX call',
+        yaxis: {fixedrange: true},
+        xaxis : {fixedrange: true}
+    };
 
 
 // Display using Plotly
-Plotly.newPlot("myPlot", data);
+Plotly.newPlot("myPlot", data, layout);
 </script>
 
 </body>
