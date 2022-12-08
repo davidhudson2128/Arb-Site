@@ -9,7 +9,7 @@ Information of what an arbitrage bet is can be found here: https://en.wikipedia.
 
 Website can be found on my web server at this address: 159.223.144.133
 
-*Code would be completely redisgned/reorganized if I ever push this to production. I rushed through this code and would do a lot of reorganizing/renaming.
+*Code would be completely redesigned/reorganized if I ever push this to production. I rushed through this code and would do a lot of reorganizing/renaming.
 
 Sample arb page:
 
